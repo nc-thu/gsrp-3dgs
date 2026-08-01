@@ -14,7 +14,7 @@ SCENE_ORDER = [
     "drjohnson", "playroom", "bicycle", "garden",
 ]
 SCENE_LABELS = {
-    "lego": "Lego", "hotdog": "Hotdog", "tt107k": "T&T-107k",
+    "lego": "Lego", "hotdog": "Hotdog", "tt107k": "Train",
     "truck": "Truck", "drjohnson": "DrJohnson", "playroom": "Playroom",
     "bicycle": "Bicycle", "garden": "Garden",
 }
@@ -350,7 +350,7 @@ def build_camera_ready_report(
     <h2>7. 为什么没有选更宽的“余量版”</h2>
     <section class="grid g2">
       <article class="card"><h3>当前质量安全版</h3><div class="big">Garden 最差 {final_same_summary['worst_direct_psnr']:.2f} dB*</div>
-      <p>*这里合并 Garden 与 T&T 的复查子集；全量 Garden 最差为 47.87 dB。</p></article>
+      <p>*这里合并 Garden 与 Train 的复查子集；全量 Garden 最差为 47.87 dB。</p></article>
       <article class="card"><h3>更宽余量版</h3><div class="big">最差 {margin_summary['worst_direct_psnr']:.2f} dB</div>
       <p>EXP 输出 12 bit、alpha12、累加器18 bit，只把 Garden 最差提高约 0.09 dB，同时部分 ΔPSNR 还略差。</p></article>
     </section>

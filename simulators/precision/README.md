@@ -52,19 +52,19 @@ required:
 This matters because quantization can occasionally move an image closer to the
 ground truth even while changing the renderer output substantially.
 
-## Current T&T result
+## Current Train result
 
 Camera 0 alone is not a representative range-calibration set. Its selected
 formats saturate on other Train cameras because projected local means expand to
 about `[-6663, 3917]` and RGB reaches `4.55`. The high-precision fixed-point
 control converges to the standard renderer, proving that the simulator
-contract is valid. The T&T diagnostic balanced profile passes the measured
+contract is valid. The Train diagnostic balanced profile passes the measured
 quality gates, but is not a frozen cross-scene hardware profile.
 
 Build the offline report with:
 
 ```text
-gs-raster-precision-v2 report --results <results_tt107k_inputs_v2>
+gs-raster-precision-v2 report --results <results_train_inputs_v2>
 ```
 
 Build the eight-scene camera-ready report with:

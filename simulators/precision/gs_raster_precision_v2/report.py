@@ -78,7 +78,7 @@ def build_report(results: Path, output: Path | None = None) -> dict[str, object]
 
     summary = {
         "schema": "gs-raster-precision-v2-report-1",
-        "dataset": "T&T-107k",
+        "dataset": "Train",
         "allocator": "ATAE-SNUGBOX",
         "reference": "standard renderCUDA",
         "calibration_camera": 0,
@@ -132,7 +132,7 @@ def build_report(results: Path, output: Path | None = None) -> dict[str, object]
         row = summaries[name]
         status = (
             "控制组" if name == "convergence_control"
-            else "T&T 候选" if name.startswith("diagnostic_")
+            else "Train 候选" if name.startswith("diagnostic_")
             else "失败诊断"
         )
         profile_rows.append(
@@ -190,10 +190,10 @@ def build_report(results: Path, output: Path | None = None) -> dict[str, object]
     body = f"""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1"><title>GSRP v2：输入量化结果</title>
     <style>{css}</style></head><body><main>
-    <section class="hero"><span class="tag">真实 CUDA · T&T-107k · 2026-07-24</span>
+    <section class="hero"><span class="tag">真实 CUDA · Train · 2026-07-24</span>
     <h1>3DGS 光栅化输入到底该用多少 bit？</h1>
     <p class="lede">这轮把 x/y、二次型 A/B/C、opacity 和 RGB 分开量化，再在 37 张未参与选格式的相机上复查。
-    结论不是“已经找到最终位宽”，而是：仿真链路可信；camera 0 单独校准不够；一套较稳妥的 T&T 候选已经出现，
+    结论不是“已经找到最终位宽”，而是：仿真链路可信；camera 0 单独校准不够；一套较稳妥的 Train 候选已经出现，
     但必须经过跨场景校准后才能成为社区推荐格式。</p></section>
 
     <section class="grid g3" style="margin-top:18px">
@@ -236,9 +236,9 @@ def build_report(results: Path, output: Path | None = None) -> dict[str, object]
     <table><thead><tr><th>联合 profile</th><th>平均 ΔPSNR@GT</th><th>最差 ΔPSNR@GT</th>
     <th>平均 direct PSNR</th><th>最差 direct PSNR</th><th>饱和次数</th></tr></thead><tbody>
     {''.join(profile_rows)}</tbody></table>
-    <p><code>diagnostic_balanced</code> 在 T&T 的 37 张 held-out 相机上零饱和，平均 ΔPSNR 为 −0.0033 dB，
+    <p><code>diagnostic_balanced</code> 在 Train 的 37 张 held-out 相机上零饱和，平均 ΔPSNR 为 −0.0033 dB，
     最差为 −0.0721 dB，最差 direct PSNR 为 54.24 dB。它是很有希望的工程候选。
-    但这三组 diagnostic profile 是在看过 T&T held-out 失败原因后设计的，因此这些相机不能再被当作完全独立的最终验证集。</p>
+    但这三组 diagnostic profile 是在看过 Train held-out 失败原因后设计的，因此这些相机不能再被当作完全独立的最终验证集。</p>
 
     <h2>5. 各输入单独量化时发生了什么</h2>
     <table><thead><tr><th>信号</th><th>camera 0 选择</th><th>held-out 平均 ΔPSNR</th>
@@ -283,4 +283,3 @@ def build_report(results: Path, output: Path | None = None) -> dict[str, object]
         json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
     return summary
-
