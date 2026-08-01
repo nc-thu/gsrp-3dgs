@@ -1,0 +1,89 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "profiles": [
+    {
+      "name": "exp_addr8_out8",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 8},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "exp_addr8_out10",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "exp_addr8_out12",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 12},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "exp_addr8_out14",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 14},
+      "blend": {"enabled": false}
+    }
+  ]
+}

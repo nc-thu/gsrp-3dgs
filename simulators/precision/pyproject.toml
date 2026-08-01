@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gs-raster-precision-v2"
+version = "1.0.0rc1"
+description = "Hardware-oriented fixed-point format laboratory for the standard 3DGS rasterizer"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.23", "Pillow>=9", "PyYAML>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+gs-raster-precision-v2 = "gs_raster_precision_v2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gs_raster_precision_v2*"]

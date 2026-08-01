@@ -1,0 +1,20 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "profiles": [
+    {
+      "name": "input_control",
+      "inputs": {
+        "mean_x": {"bits": 30, "frac_bits": 16, "signed": true},
+        "mean_y": {"bits": 30, "frac_bits": 16, "signed": true},
+        "conic_a": {"bits": 30, "frac_bits": 26, "signed": false},
+        "conic_b": {"bits": 30, "frac_bits": 26, "signed": true},
+        "conic_c": {"bits": 30, "frac_bits": 26, "signed": false},
+        "opacity": {"bits": 20, "frac_bits": 19, "signed": false},
+        "rgb": {"bits": 24, "frac_bits": 19, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    }
+  ]
+}

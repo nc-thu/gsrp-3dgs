@@ -1,0 +1,92 @@
+{
+  "allocator_count": 2,
+  "camera_count": 1162,
+  "camera_results_sha256": "e0a47f274af15cb81016b40dca7b0c119f2df792cfa91a2cc74eb3962d860b55",
+  "comparison_2x2_sha256": "3e909515583e9ed6d06e69c8e84bcba9f196536b2c6fc46e2d42a55a8f00a746",
+  "inputs": [
+    {
+      "path": "atae_snugbox/bicycle/tiles.csv",
+      "sha256": "77170e48d678ed2cbbe3ecd88286cf217d837d80dde8a2c55f5a0d69b5098e5a"
+    },
+    {
+      "path": "atae_snugbox/drjohnson/tiles.csv",
+      "sha256": "ffa0d3114ecf381710704d3ee65356b1ac4c6b6e56eea3ff6f4dde117af9c579"
+    },
+    {
+      "path": "atae_snugbox/garden/tiles.csv",
+      "sha256": "4d20d64fa2f5430680a9fe803258504fc7c699783ba8698bb9d88aadf772ac78"
+    },
+    {
+      "path": "atae_snugbox/hotdog/tiles.csv",
+      "sha256": "41c5a8f2c1c26a29793ca0f6a9e310efa85243ecb8ab5279a833e91ac9ecd78b"
+    },
+    {
+      "path": "atae_snugbox/lego/tiles.csv",
+      "sha256": "c3d45c6993251d7685046b4917e26b92fa63dd5985a26eebc3f9d7dae6f6b149"
+    },
+    {
+      "path": "atae_snugbox/playroom/tiles.csv",
+      "sha256": "6257af86bbdbf68379bd5766e280e6ce0185676b485436a31fe72a4085c97151"
+    },
+    {
+      "path": "atae_snugbox/train/tiles.csv",
+      "sha256": "0ba6fb1908099eb318e616fbd4c465e6b850fd7377213330750594321ece0562"
+    },
+    {
+      "path": "atae_snugbox/truck/tiles.csv",
+      "sha256": "0012749087cc6a6bd559fff86ef1033dc8c51e6236595361c8a5bc0ca51e4734"
+    },
+    {
+      "path": "baseline_aabb/bicycle/tiles.csv",
+      "sha256": "8bef91a57cca160f1d3967cce6c7306093afe2fccc00274d525db9d2015d2903"
+    },
+    {
+      "path": "baseline_aabb/drjohnson/tiles.csv",
+      "sha256": "935838b75f6417d375e7ec8081f30c829d0966d71e869db60d8868615f64ec3b"
+    },
+    {
+      "path": "baseline_aabb/garden/tiles.csv",
+      "sha256": "f59270eab6c37e3a87a06e8a04a45125042ffd7e5cccbdda21056bd26f903435"
+    },
+    {
+      "path": "baseline_aabb/hotdog/tiles.csv",
+      "sha256": "1d305ff3713a85f93565faa4a11ca86d7ea7e7a870bed1019c5dea81c376d5a2"
+    },
+    {
+      "path": "baseline_aabb/lego/tiles.csv",
+      "sha256": "f03aca9da5ff4ad881b4cb4242f1a4874d6333188066c1a685611172d99bf875"
+    },
+    {
+      "path": "baseline_aabb/playroom/tiles.csv",
+      "sha256": "4244e3e7876bfd675afe468bd04750b823d9a63075f43608b0220dc496665547"
+    },
+    {
+      "path": "baseline_aabb/train/tiles.csv",
+      "sha256": "ad00b74f1c653615981a4a114d0e7e21206d8fadac20cf5c299460cac922adb8"
+    },
+    {
+      "path": "baseline_aabb/truck/tiles.csv",
+      "sha256": "cd3ca05318d7b1d6cb7908e7f8ac24e9a507f5c129b6b03e7a5c3ab2c1601db0"
+    }
+  ],
+  "overall_summary_sha256": "8fc463eb7b06ccca76fb0d126a8d2bfb214393993bbafda5a79a424b8b8e8e04",
+  "profile": "continuous_w16_tile_tstop",
+  "scene_count": 8,
+  "scene_naming": {
+    "canonical_key": "train",
+    "display_name": "Train",
+    "summary_migration": true
+  },
+  "scene_summary_sha256": "db26cfb1955e24587f7a706622b733259a23e9fc84d9d5431100f20c674547e4",
+  "schema": "gs-arch-sim-v11-results-1",
+  "spec": {
+    "cores": 4,
+    "fclk_mhz": 400.0,
+    "fifo_rows": 32,
+    "fill_drain_cycles": 30,
+    "kvp_contexts": 2,
+    "tile_size": 16,
+    "w16_cycles_per_kvp": 16
+  },
+  "status": "complete"
+}

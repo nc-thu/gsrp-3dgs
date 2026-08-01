@@ -1,0 +1,59 @@
+{
+  "schema": "gs-raster-precision-camera-ready-release-1",
+  "status": "complete",
+  "allocator": "atae_snugbox",
+  "calibration": "camera 0 from each of eight scenes",
+  "validation": "all remaining 573 test cameras",
+  "reference": "standard renderCUDA",
+  "profile_sha256": "6d8a6050761b1b87116b99a87e435a3d69cf08263789014309a0656ff1f74b95",
+  "result_csv_sha256": {
+    "lego": "37bce4cd1a41257232776f60385573d259e6ab7a68b54a02b87550a126d00c7f",
+    "hotdog": "3c5d08653c623927cb9cf4dc77aec64c2bc147019d52c0522c0280fe51861644",
+    "tt107k": "c2ab270773b97fb6391d2e5ac1bdb8a8e588713800d80061d10d0ed99633decc",
+    "truck": "42a5bd86b1cb8f35eb59bd85562aff4b1a3d7ba8ca2d07f8da72f3409241a16b",
+    "drjohnson": "96bf6d26d03d332d4fa5c04419c7efed7115a15e9b02a2927c4bb95fd48ebad0",
+    "playroom": "30bb7bb8e8392fc05f1a40652720386391ed3e6c858b89f7e24bc9b3ccba96a7",
+    "bicycle": "d0e1f7c2caf4e1184d65678dacd5712c89467a89b8ed79ac64dc24ea11e28334",
+    "garden": "187e51a57dfdfdf09b01ffc3cf8f01650d34488eb4079653233de236202355dc"
+  },
+  "decision": {
+    "release_profile": "camera_ready_quality_safe_v1",
+    "status": "camera-ready software evidence; RTL/PPA not yet evaluated",
+    "heldout_cameras": 573,
+    "quality_gate_pass": true,
+    "quadratic_conclusion": "Naive A*dx^2+C*dy^2+B*dx*dy needs wide cancellation-safe intermediates; 40-bit is a validated quality bound, not a final PPA optimum.",
+    "exp_conclusion": "8-bit address and 10-bit output selected; 8/8 is the minimum passing LUT.",
+    "blend_conclusion": "alpha10, T/visibility UQ1.15, RGB accumulator 16-bit Q4.12.",
+    "margin_conclusion": "Wider EXP/alpha/accumulator barely improves Garden; keep smaller profile."
+  },
+  "overall": {
+    "profile": "camera_ready_quality_safe_v1",
+    "cameras": 573,
+    "mean_delta_psnr": -0.0001694111715852694,
+    "worst_delta_psnr": -0.07248687744140625,
+    "mean_delta_ssim": -5.905509619188558e-05,
+    "mean_delta_lpips": -0.00032221778486099544,
+    "worst_positive_delta_lpips": 0.00010893121361732483,
+    "worst_direct_psnr": 47.86808776855469,
+    "saturations": 0
+  },
+  "build_provenance": {
+    "schema": "gs-raster-precision-build-provenance-1",
+    "renderer_patch": {
+      "forward.cu": "0789e640463018f69a4a4377ce8df2c493791e3b13b1f2b7d18849cb40a84dc1",
+      "gsrp_naive_precision.cuh": "7f405fdc05e4e15eb0267825c5ff0343628eb77d79c1fe56e87757aa7d165f29"
+    },
+    "extension_sha256": "72125335685b6b49da807ad1c8d319a6300e935233996f8e379ae2f3b96bf029",
+    "toolchain": {
+      "cuda": "11.6",
+      "gcc": "8",
+      "python": "3.9",
+      "pytorch": "1.12.1+cu116"
+    },
+    "notes": [
+      "The extension binary is not distributed.",
+      "The paths used for the private experiment are intentionally omitted."
+    ]
+  },
+  "report_sha256": "e09c0be3046e489cd8d1cf40511407c57a17aa1164263074458547681313e373"
+}

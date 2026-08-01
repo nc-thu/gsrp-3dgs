@@ -1,0 +1,2080 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "calibration": "eight_scene_camera0",
+  "ranges": {
+    "mean_x": {
+      "minimum": -10522.7978515625,
+      "maximum": 1811.9521484375,
+      "scenes": 8
+    },
+    "mean_y": {
+      "minimum": -2657.875,
+      "maximum": 1434.17578125,
+      "scenes": 8
+    },
+    "conic_a": {
+      "minimum": 7.374752613031887e-07,
+      "maximum": 3.3333330154418945,
+      "scenes": 8
+    },
+    "conic_b": {
+      "minimum": -1.6608412265777588,
+      "maximum": 1.6647095680236816,
+      "scenes": 8
+    },
+    "conic_c": {
+      "minimum": 4.4002902654938225e-07,
+      "maximum": 3.333347797393799,
+      "scenes": 8
+    },
+    "opacity": {
+      "minimum": 0.003927595913410187,
+      "maximum": 1.0,
+      "scenes": 8
+    },
+    "rgb": {
+      "minimum": 0.0,
+      "maximum": 4.320694923400879,
+      "scenes": 8
+    }
+  },
+  "profiles": [
+    {
+      "name": "input_mean_x_b16_f1",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 16,
+          "frac_bits": 1,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b17_f2",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 17,
+          "frac_bits": 2,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b18_f3",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 18,
+          "frac_bits": 3,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b19_f4",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 19,
+          "frac_bits": 4,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b20_f5",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 20,
+          "frac_bits": 5,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b21_f6",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 21,
+          "frac_bits": 6,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b22_f7",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 22,
+          "frac_bits": 7,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b23_f8",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 23,
+          "frac_bits": 8,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b24_f9",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 24,
+          "frac_bits": 9,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b25_f10",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 25,
+          "frac_bits": 10,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b26_f11",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 26,
+          "frac_bits": 11,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b27_f12",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 27,
+          "frac_bits": 12,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b28_f13",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 28,
+          "frac_bits": 13,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b29_f14",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 29,
+          "frac_bits": 14,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_x_b30_f15",
+      "stage": "input",
+      "swept_signal": "mean_x",
+      "inputs": {
+        "mean_x": {
+          "bits": 30,
+          "frac_bits": 15,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b16_f3",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 16,
+          "frac_bits": 3,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b17_f4",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 17,
+          "frac_bits": 4,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b18_f5",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 18,
+          "frac_bits": 5,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b19_f6",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 19,
+          "frac_bits": 6,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b20_f7",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 20,
+          "frac_bits": 7,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b21_f8",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 21,
+          "frac_bits": 8,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b22_f9",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 22,
+          "frac_bits": 9,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b23_f10",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 23,
+          "frac_bits": 10,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b24_f11",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 24,
+          "frac_bits": 11,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b25_f12",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 25,
+          "frac_bits": 12,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b26_f13",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 26,
+          "frac_bits": 13,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b27_f14",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 27,
+          "frac_bits": 14,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b28_f15",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 28,
+          "frac_bits": 15,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b29_f16",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 29,
+          "frac_bits": 16,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_mean_y_b30_f17",
+      "stage": "input",
+      "swept_signal": "mean_y",
+      "inputs": {
+        "mean_y": {
+          "bits": 30,
+          "frac_bits": 17,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b16_f14",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 16,
+          "frac_bits": 14,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b17_f15",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 17,
+          "frac_bits": 15,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b18_f16",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 18,
+          "frac_bits": 16,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b19_f17",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 19,
+          "frac_bits": 17,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b20_f18",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 20,
+          "frac_bits": 18,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b21_f19",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 21,
+          "frac_bits": 19,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b22_f20",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 22,
+          "frac_bits": 20,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b23_f21",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 23,
+          "frac_bits": 21,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b24_f22",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 24,
+          "frac_bits": 22,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b25_f23",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 25,
+          "frac_bits": 23,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b26_f24",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 26,
+          "frac_bits": 24,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b27_f25",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 27,
+          "frac_bits": 25,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b28_f26",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 28,
+          "frac_bits": 26,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b29_f27",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 29,
+          "frac_bits": 27,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_a_b30_f28",
+      "stage": "input",
+      "swept_signal": "conic_a",
+      "inputs": {
+        "conic_a": {
+          "bits": 30,
+          "frac_bits": 28,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b16_f14",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 16,
+          "frac_bits": 14,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b17_f15",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 17,
+          "frac_bits": 15,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b18_f16",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 18,
+          "frac_bits": 16,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b19_f17",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 19,
+          "frac_bits": 17,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b20_f18",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 20,
+          "frac_bits": 18,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b21_f19",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 21,
+          "frac_bits": 19,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b22_f20",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 22,
+          "frac_bits": 20,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b23_f21",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 23,
+          "frac_bits": 21,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b24_f22",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 24,
+          "frac_bits": 22,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b25_f23",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 25,
+          "frac_bits": 23,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b26_f24",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 26,
+          "frac_bits": 24,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b27_f25",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 27,
+          "frac_bits": 25,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b28_f26",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 28,
+          "frac_bits": 26,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b29_f27",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 29,
+          "frac_bits": 27,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_b_b30_f28",
+      "stage": "input",
+      "swept_signal": "conic_b",
+      "inputs": {
+        "conic_b": {
+          "bits": 30,
+          "frac_bits": 28,
+          "signed": true
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b16_f14",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 16,
+          "frac_bits": 14,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b17_f15",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 17,
+          "frac_bits": 15,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b18_f16",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 18,
+          "frac_bits": 16,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b19_f17",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 19,
+          "frac_bits": 17,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b20_f18",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 20,
+          "frac_bits": 18,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b21_f19",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 21,
+          "frac_bits": 19,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b22_f20",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 22,
+          "frac_bits": 20,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b23_f21",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 23,
+          "frac_bits": 21,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b24_f22",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 24,
+          "frac_bits": 22,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b25_f23",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 25,
+          "frac_bits": 23,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b26_f24",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 26,
+          "frac_bits": 24,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b27_f25",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 27,
+          "frac_bits": 25,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b28_f26",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 28,
+          "frac_bits": 26,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b29_f27",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 29,
+          "frac_bits": 27,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_conic_c_b30_f28",
+      "stage": "input",
+      "swept_signal": "conic_c",
+      "inputs": {
+        "conic_c": {
+          "bits": 30,
+          "frac_bits": 28,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b4_f3",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 4,
+          "frac_bits": 3,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b5_f4",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 5,
+          "frac_bits": 4,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b6_f5",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 6,
+          "frac_bits": 5,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b7_f6",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 7,
+          "frac_bits": 6,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b8_f7",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 8,
+          "frac_bits": 7,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b9_f8",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 9,
+          "frac_bits": 8,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b10_f9",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 10,
+          "frac_bits": 9,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b11_f10",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 11,
+          "frac_bits": 10,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_opacity_b12_f11",
+      "stage": "input",
+      "swept_signal": "opacity",
+      "inputs": {
+        "opacity": {
+          "bits": 12,
+          "frac_bits": 11,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b6_f3",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 6,
+          "frac_bits": 3,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b7_f4",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 7,
+          "frac_bits": 4,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b8_f5",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 8,
+          "frac_bits": 5,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b9_f6",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 9,
+          "frac_bits": 6,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b10_f7",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 10,
+          "frac_bits": 7,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b11_f8",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 11,
+          "frac_bits": 8,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b12_f9",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 12,
+          "frac_bits": 9,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b13_f10",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 13,
+          "frac_bits": 10,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b14_f11",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 14,
+          "frac_bits": 11,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b15_f12",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 15,
+          "frac_bits": 12,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b16_f13",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 16,
+          "frac_bits": 13,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b17_f14",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 17,
+          "frac_bits": 14,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "input_rgb_b18_f15",
+      "stage": "input",
+      "swept_signal": "rgb",
+      "inputs": {
+        "rgb": {
+          "bits": 18,
+          "frac_bits": 15,
+          "signed": false
+        }
+      },
+      "quadratic": {
+        "enabled": false
+      },
+      "exp": {
+        "enabled": false
+      },
+      "blend": {
+        "enabled": false
+      }
+    }
+  ]
+}

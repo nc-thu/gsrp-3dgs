@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gs-arch-sim-v11"
+version = "1.1.1"
+description = "Camera-ready continuous-W16 SARD raster model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "SARD Authors"}]
+dependencies = []
+
+[project.scripts]
+sard-v11 = "gs_arch_sim_v11.cli:main"
+
+[tool.setuptools]
+packages = ["gs_arch_sim_v11"]

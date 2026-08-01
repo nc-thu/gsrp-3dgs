@@ -1,0 +1,186 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "base": "guarded_inputs_quad_wide40_exp_addr8_out10",
+  "profiles": [
+    {
+      "name": "alpha_only_8",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha"],
+        "alpha": {"bits": 8, "frac_bits": 8}
+      }
+    },
+    {
+      "name": "alpha_only_10",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha"],
+        "alpha": {"bits": 10, "frac_bits": 10}
+      }
+    },
+    {
+      "name": "alpha_only_12",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha"],
+        "alpha": {"bits": 12, "frac_bits": 12}
+      }
+    },
+    {
+      "name": "full_blend_acc16",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha", "t", "visibility", "accumulator"],
+        "alpha": {"bits": 8, "frac_bits": 8},
+        "t": {"bits": 16, "frac_bits": 15},
+        "visibility": {"bits": 16, "frac_bits": 15},
+        "accumulator": {"bits": 16, "frac_bits": 12}
+      }
+    },
+    {
+      "name": "full_blend_acc18",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha", "t", "visibility", "accumulator"],
+        "alpha": {"bits": 8, "frac_bits": 8},
+        "t": {"bits": 16, "frac_bits": 15},
+        "visibility": {"bits": 16, "frac_bits": 15},
+        "accumulator": {"bits": 18, "frac_bits": 14}
+      }
+    },
+    {
+      "name": "full_blend_acc20",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha", "t", "visibility", "accumulator"],
+        "alpha": {"bits": 8, "frac_bits": 8},
+        "t": {"bits": 16, "frac_bits": 15},
+        "visibility": {"bits": 16, "frac_bits": 15},
+        "accumulator": {"bits": 20, "frac_bits": 16}
+      }
+    },
+    {
+      "name": "full_blend_acc24",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 40, "geometry_frac_bits": 8,
+        "term_bits": 40, "term_frac_bits": 16,
+        "sum_bits": 42, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": true, "address_bits": 8, "output_bits": 10},
+      "blend": {
+        "enabled": true, "signals": ["alpha", "t", "visibility", "accumulator"],
+        "alpha": {"bits": 8, "frac_bits": 8},
+        "t": {"bits": 16, "frac_bits": 15},
+        "visibility": {"bits": 16, "frac_bits": 15},
+        "accumulator": {"bits": 24, "frac_bits": 20}
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use gs_arch_sim v1.1.1, please cite the SARD paper and this software."
+title: "gs_arch_sim v1.1.1"
+type: software
+version: 1.1.1
+date-released: 2026-07-16
+license: MIT
+repository-code: "https://github.com/nc-thu/gsrp-3dgs"
+url: "https://github.com/nc-thu/gsrp-3dgs"
+authors:
+  - family-names: Nian
+    given-names: Cheng

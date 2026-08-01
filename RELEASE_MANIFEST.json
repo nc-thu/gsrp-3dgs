@@ -1,0 +1,29 @@
+{
+  "schema": "gsrp-public-release-manifest-v1",
+  "repository": "https://github.com/nc-thu/gsrp-3dgs",
+  "status": "public camera-ready simulator snapshot",
+  "version": "0.1.0",
+  "included": [
+    "simulators/performance",
+    "simulators/precision",
+    "docs",
+    "examples",
+    "profiles",
+    "tests",
+    "aggregate examples and manifests"
+  ],
+  "excluded": [
+    "paper directory",
+    "trained models",
+    "dataset copies",
+    "raw or full workload traces",
+    "server paths and credentials",
+    "complete RTL, netlists, and DDC files",
+    "private experiment logs"
+  ],
+  "reproducibility": {
+    "inputs": "user-supplied model, dataset source, camera list, and profile",
+    "outputs": "camera-level metrics, quality metrics, structured summaries, and hashes",
+    "paper_release": "paper source is maintained separately from this repository"
+  }
+}

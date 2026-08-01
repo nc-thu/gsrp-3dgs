@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use GSRP, please cite the paper and the released software."
+title: "GSRP: Structure-Preserving Fixed-Point Rasterization for Efficient 3D Gaussian Splatting"
+type: software
+version: 0.1.0
+date-released: 2026-08-01
+license: MIT
+repository-code: "https://github.com/nc-thu/gsrp-3dgs"
+url: "https://github.com/nc-thu/gsrp-3dgs"
+authors:
+  - family-names: Nian
+    given-names: Cheng
+  - name: "GSRP Research Team"

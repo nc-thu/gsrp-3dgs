@@ -1,0 +1,19 @@
+{
+  "schema": "gs-raster-precision-build-provenance-1",
+  "renderer_patch": {
+    "forward.cu": "0789e640463018f69a4a4377ce8df2c493791e3b13b1f2b7d18849cb40a84dc1",
+    "gsrp_naive_precision.cuh": "7f405fdc05e4e15eb0267825c5ff0343628eb77d79c1fe56e87757aa7d165f29"
+  },
+  "extension_sha256": "72125335685b6b49da807ad1c8d319a6300e935233996f8e379ae2f3b96bf029",
+  "toolchain": {
+    "cuda": "11.6",
+    "gcc": "8",
+    "python": "3.9",
+    "pytorch": "1.12.1+cu116"
+  },
+  "notes": [
+    "The extension binary is not distributed.",
+    "The paths used for the private experiment are intentionally omitted."
+  ]
+}
+
