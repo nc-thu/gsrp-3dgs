@@ -1,0 +1,5 @@
+stage,area,evidence
+Historical generic-width fixed,890991.601573,diagnostic only
+Exact-width polynomial CSE,262665.774223,DC
+Row/column sharing,197328.586519,DC
+Final T-stop-safe core,197298.206502,DC

@@ -1,0 +1,31 @@
+{
+  "cell_area_units": 13614.845961,
+  "cell_count": 15592,
+  "clock_mhz": 400.0,
+  "clock_period_ns": 2.5,
+  "combinational_area_units": 7436.239999,
+  "corner": "SSG 0.81V 0C",
+  "critical_path_ns": 2.47,
+  "dynamic_power_mw": 5.6229,
+  "energy_per_gaussian_pj": 14.067018000000001,
+  "hierarchical_area_units": {
+    "eigen_floor_update": 6751.612,
+    "integer_sqrt": 5646.564,
+    "q217_quant_pd_repair": 6863.234
+  },
+  "initiation_interval": 1,
+  "latency_cycles": 26,
+  "leakage_power_mw": 0.0039072,
+  "pd_postcondition": "Acode*Ccode-Bcode^2 >= 1",
+  "power_method": "mapped-DDC pre-layout with bit-level activity derived from the deterministic workload-range conic stream",
+  "schema": "gsrp-pd-guard-ppa-v1",
+  "sequential_area_units": 6178.605962,
+  "sequential_cell_count": 3318,
+  "status": "complete",
+  "technology": "TSMC 28nm HPC+",
+  "tns_ns": 0.0,
+  "total_power_mw": 5.6268072,
+  "valid_duty": 1.0,
+  "vcs_vectors": 4096,
+  "wns_ns": 0.0
+}

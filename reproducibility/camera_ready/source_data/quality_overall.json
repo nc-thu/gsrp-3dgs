@@ -1,0 +1,101 @@
+{
+  "heldout_cameras": 573,
+  "pooled": {
+    "delta_psnr_below_m0p1": 26,
+    "delta_psnr_below_m0p5": 6,
+    "delta_psnr_below_m1p0": 2,
+    "delta_psnr_mean": -0.02779096333768353,
+    "delta_psnr_median": -0.0144500732421875,
+    "delta_psnr_p1": -0.6500129699707031,
+    "delta_psnr_p5": -0.0925273895263671,
+    "delta_psnr_p95": 0.0143699645996093,
+    "delta_psnr_std": 0.1376316239914933,
+    "fixed_psnr_mean": 31.562827912508713,
+    "standard_psnr_mean": 31.590618875846395
+  },
+  "scene_equal": {
+    "delta_lpips_mean": -0.00038059164985736974,
+    "delta_psnr_mean": -0.044370159851737694,
+    "delta_ssim_mean": -0.00042914039319107394,
+    "fixed_lpips_mean": 0.21132845223451627,
+    "fixed_psnr_mean": 28.092473151277233,
+    "fixed_ssim_mean": 0.8616774421507983,
+    "standard_lpips_mean": 0.21170904388437367,
+    "standard_psnr_mean": 28.13684331112897,
+    "standard_ssim_mean": 0.8621065825439895
+  },
+  "worst": [
+    {
+      "camera": 24,
+      "delta_lpips_vs_standard": 0.0032631754875183,
+      "delta_psnr_vs_standard": -1.87934684753418,
+      "delta_ssim_vs_standard": -0.0084421634674072,
+      "psnr_gt": 25.475563049316406,
+      "scene": "truck",
+      "standard_psnr_gt": 27.354909896850582
+    },
+    {
+      "camera": 33,
+      "delta_lpips_vs_standard": 0.0010127425193786,
+      "delta_psnr_vs_standard": -1.7731142044067385,
+      "delta_ssim_vs_standard": -0.0205127894878387,
+      "psnr_gt": 13.301562309265137,
+      "scene": "tt107k",
+      "standard_psnr_gt": 15.074676513671877
+    },
+    {
+      "camera": 3,
+      "delta_lpips_vs_standard": 0.0027090013027191,
+      "delta_psnr_vs_standard": -0.7921161651611328,
+      "delta_ssim_vs_standard": -0.0094191431999206,
+      "psnr_gt": 24.46902275085449,
+      "scene": "truck",
+      "standard_psnr_gt": 25.261138916015625
+    },
+    {
+      "camera": 13,
+      "delta_lpips_vs_standard": -0.0018817782402038,
+      "delta_psnr_vs_standard": -0.7323055267333984,
+      "delta_ssim_vs_standard": -0.0035144686698913,
+      "psnr_gt": 21.9539852142334,
+      "scene": "tt107k",
+      "standard_psnr_gt": 22.6862907409668
+    },
+    {
+      "camera": 11,
+      "delta_lpips_vs_standard": 0.0017454624176025,
+      "delta_psnr_vs_standard": -0.679962158203125,
+      "delta_ssim_vs_standard": -0.0065016150474548,
+      "psnr_gt": 24.38755798339844,
+      "scene": "truck",
+      "standard_psnr_gt": 25.06752014160156
+    },
+    {
+      "camera": 29,
+      "delta_lpips_vs_standard": 0.0007668882608413,
+      "delta_psnr_vs_standard": -0.6500129699707031,
+      "delta_ssim_vs_standard": -0.0017037391662597,
+      "psnr_gt": 23.257869720458984,
+      "scene": "truck",
+      "standard_psnr_gt": 23.907882690429688
+    },
+    {
+      "camera": 32,
+      "delta_lpips_vs_standard": 4.208087921142578e-05,
+      "delta_psnr_vs_standard": -0.4413356781005859,
+      "delta_ssim_vs_standard": -0.00251966714859,
+      "psnr_gt": 22.95429039001465,
+      "scene": "tt107k",
+      "standard_psnr_gt": 23.395626068115234
+    },
+    {
+      "camera": 9,
+      "delta_lpips_vs_standard": -0.0004855841398239,
+      "delta_psnr_vs_standard": -0.433664321899414,
+      "delta_ssim_vs_standard": -0.0022385716438293,
+      "psnr_gt": 22.02382469177246,
+      "scene": "tt107k",
+      "standard_psnr_gt": 22.457489013671875
+    }
+  ]
+}

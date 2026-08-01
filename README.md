@@ -23,6 +23,23 @@ and reproduction scripts. It does not contain private models, datasets, raw or
 full traces, server paths, credentials, complete RTL, netlists, DDC files, or
 private experiment logs.
 
+## Camera-ready aggregate reproduction
+
+The public snapshot also contains a self-contained aggregate-data reproduction
+under `reproducibility/camera_ready/`. From a clean clone, install the small
+plotting dependencies and run:
+
+```powershell
+python -m pip install matplotlib numpy
+python reproducibility/camera_ready/reproduce_camera_ready.py --out reproduced_camera_ready
+```
+
+This regenerates Fig. 3, Fig. 4, the quality summary table, and the hardware
+summary table as PDF/SVG/PNG/CSV artifacts. The script consumes only released
+aggregate source data and writes a hash manifest. It does not claim to rerun
+the original 573-camera CUDA renderer: that experiment requires the user's
+trained models and dataset copies, which are intentionally not distributed.
+
 ## Install
 
 The simulators remain separate packages so either research question can be
@@ -60,6 +77,12 @@ the profile version, input semantics, source identifier, and output hashes.
 Performance reports focus on camera-level cycles/FPS and stage timing;
 precision reports focus on PSNR/SSIM/LPIPS, saturation, and conic-structure
 checks.
+
+The public repository currently contains complete public Python implementations
+of both simulators, profiles, tests, aggregate result examples, and the
+camera-ready figure/table reproduction script. It does not contain pretrained
+models, dataset copies, private traces, complete RTL, or DC scripts. Standard
+dataset sources and user-side acquisition notes are listed in `docs/`.
 
 ## Public scene naming
 

@@ -1,0 +1,8 @@
+component,area,evidence,additivity
+mapped_total,197298.206502,DC report_area,exact total
+mapped_sequential,18149.502027,DC report_area,exact partition
+mapped_exp_rom_64x,4076.799999999995,"DC hierarchy, 64 instances",exact hierarchy
+multiplier_comb_floor,84282.940335,0.81 V operator microbench × required operator count,diagnostic lower bound
+remaining_comb_after_floor_and_rom,90788.96414,mapped comb - multiplier floor - ROM,diagnostic residual
+dense_quarter_target,180226.1894095,same-corner Dense / 4,target
+area_margin_to_target,-17072.0170925,target - mapped total,positive means pass

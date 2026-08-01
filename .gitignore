@@ -14,3 +14,4 @@ dist/
 *.synctex.gz
 *.out
 tmp/
+reproducibility/camera_ready/reference_outputs/
