@@ -1,0 +1,23 @@
+{
+  "name": "conic21_quality_safe_v1",
+  "description": "Structure-preserving fixed-point raster profile with 21-bit conic storage.",
+  "scope": "raster_only",
+  "preprocess": "fp16_standard_renderer_semantics",
+  "allocator": "atae_snugbox",
+  "coordinates": {"bits": 18, "frac_bits": 3, "signed": true},
+  "conic": {
+    "a": {"bits": 21, "frac_bits": 18, "signed": false, "format": "UQ3.18<21>"},
+    "b": {"bits": 21, "frac_bits": 18, "signed": true, "format": "SQ2.18<21>"},
+    "c": {"bits": 21, "frac_bits": 18, "signed": false, "format": "UQ3.18<21>"},
+    "guard": "eigen_floor_then_integer_pd_repair",
+    "positive_floor": "2^-18"
+  },
+  "opacity": {"bits": 8, "frac_bits": 7, "signed": false},
+  "rgb": {"bits": 10, "frac_bits": 7, "signed": false},
+  "quadratic_intermediate_bits": {"geometry": 40, "weighted": 40, "sum": 42, "power": 20},
+  "exp": {"address_bits": 8, "output_bits": 10, "lut_domain": "[-ln(255),0]"},
+  "blend": {"alpha_bits": 10, "transmittance_bits": 16, "visibility_bits": 16, "rgb_accumulator_bits": 16},
+  "rounding": "round_to_nearest_even",
+  "overflow": "saturate",
+  "evidence": {"quality_cameras": 573, "scenes": 8, "rtl": "not included", "p_and_r": "not included"}
+}

@@ -2,10 +2,11 @@
   "schema": "gsrp-public-release-manifest-v2",
   "repository": "https://github.com/nc-thu/gsrp-3dgs",
   "status": "public camera-ready simulator snapshot",
-  "version": "0.2.0",
+  "version": "0.3.0-conic21",
   "included": [
     "simulators/performance",
     "simulators/precision",
+    "simulators/precision/profiles/conic21_quality_safe_v1.json",
     "docs",
     "examples",
     "profiles",
@@ -27,6 +28,7 @@
     "outputs": "camera-level metrics, quality metrics, structured summaries, and hashes",
     "aggregate_claim": "clean clone regenerates Fig.3, Fig.4, quality summary, and hardware summary from released aggregate data",
     "cuda_rerun": "573-camera renderer rerun requires user-supplied models and datasets",
-    "paper_release": "paper source is maintained separately from this repository"
+    "paper_release": "paper source is maintained separately from this repository",
+    "conic21": "aggregate quality and PPA control evidence included"
   }
 }

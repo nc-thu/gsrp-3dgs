@@ -1,123 +1,12 @@
 {
   "cameras": 573,
-  "scenes": {
-    "bicycle": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 1433,
-      "eigen_floor_triggered": 46357,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "drjohnson": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 446,
-      "eigen_floor_triggered": 21783,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "garden": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 620,
-      "eigen_floor_triggered": 21283,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "hotdog": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 0,
-      "eigen_floor_triggered": 0,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "lego": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 0,
-      "eigen_floor_triggered": 0,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "playroom": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 1121,
-      "eigen_floor_triggered": 31880,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "truck": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 143,
-      "eigen_floor_triggered": 9518,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    },
-    "tt107k": {
-      "b_clamp_triggered": 0,
-      "diagonal_floor_triggered": 120,
-      "eigen_floor_triggered": 6707,
-      "guard_abs_coeff_delta_max_scaled": 0,
-      "guard_abs_coeff_delta_sum_scaled": 0,
-      "guard_final_non_psd": 0,
-      "guard_modified_coefficients": 0,
-      "guard_modified_gaussians": 0,
-      "input_saturated": 0,
-      "max_abs_coefficient_delta": 0.0,
-      "mean_abs_delta_per_modified_coefficient": 0.0
-    }
-  },
   "status": "complete",
   "totals": {
+    "eigen_floor_triggered": 69286,
+    "diagonal_floor_triggered": 1584,
     "b_clamp_triggered": 0,
-    "diagonal_floor_triggered": 3883,
-    "eigen_floor_triggered": 137528,
-    "guard_abs_coeff_delta_max_scaled": 0,
-    "guard_abs_coeff_delta_sum_scaled": 0,
     "guard_final_non_psd": 0,
-    "guard_modified_coefficients": 0,
-    "guard_modified_gaussians": 0,
     "input_saturated": 0,
-    "max_abs_coefficient_delta": 0.0,
-    "mean_abs_delta_per_modified_coefficient": 0.0
+    "profile": "conic21"
   }
 }

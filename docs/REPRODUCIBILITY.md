@@ -17,8 +17,8 @@ datasets, full traces, server addresses, or hardware implementation files.
 
 The directory `reproducibility/camera_ready/` contains sanitized aggregate
 source data and `reproduce_camera_ready.py`. At the final public commit, a
-clean clone regenerates the paper's quality summary, hardware summary, Fig. 3,
-and Fig. 4 without a server or a GPU. The generated manifest records the input
+clean clone regenerates the paper's Conic21 quality summary, hardware summary,
+Fig. 3, and Fig. 4 without a server or a GPU. The generated manifest records the input
 and output hashes.
 
 This is an aggregate-data reproduction claim. Re-running the original

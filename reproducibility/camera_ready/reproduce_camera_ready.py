@@ -30,6 +30,7 @@ COLORS = {
     "opacity_prune": "#D88A43",
     "integer_pd": "#7A6AA6",
     "eigen_floor": "#315B8A",
+    "conic21": "#4C9A91",
     "wide_control": "#777777",
 }
 PROFILE_LABELS = {
@@ -37,9 +38,10 @@ PROFILE_LABELS = {
     "opacity_prune": "Opacity prune",
     "integer_pd": "Integer PD",
     "eigen_floor": "Eigen-floor",
+    "conic21": "Conic21",
     "wide_control": "Wide control",
 }
-PROFILE_ORDER = ["no_guard", "opacity_prune", "integer_pd", "eigen_floor", "wide_control"]
+PROFILE_ORDER = ["no_guard", "opacity_prune", "integer_pd", "eigen_floor", "conic21", "wide_control"]
 SCENE_ORDER = ["lego", "hotdog", "tt107k", "truck", "drjohnson", "playroom", "bicycle", "garden"]
 SCENE_LABELS = {
     "lego": "Lego",
@@ -125,12 +127,12 @@ def make_fig3(out: Path) -> None:
                 float(next(r for r in scene_rows if r["profile"] == p and r["scene"] == scene)["mean_delta_psnr"])
                 for scene in SCENE_ORDER
             ]
-            for p in PROFILE_ORDER[:4]
+            for p in PROFILE_ORDER[:5]
         ]
     )
     image = ax.imshow(matrix, cmap="RdBu_r", vmin=-0.9, vmax=0.2, aspect="auto")
     ax.set_xticks(range(len(SCENE_ORDER)), [SCENE_LABELS[s] for s in SCENE_ORDER], rotation=30, ha="right")
-    ax.set_yticks(range(4), [PROFILE_LABELS[p] for p in PROFILE_ORDER[:4]])
+    ax.set_yticks(range(5), [PROFILE_LABELS[p] for p in PROFILE_ORDER[:5]])
     ax.set_title("Scene-wise ΔPSNR", loc="left")
     for row in range(matrix.shape[0]):
         for col in range(matrix.shape[1]):
@@ -140,13 +142,13 @@ def make_fig3(out: Path) -> None:
     panel(ax, "b")
 
     ax = axes[1, 0]
-    distributions = [[float(r["delta_psnr_vs_standard"]) for r in camera_rows if r["profile"] == p] for p in PROFILE_ORDER[:4]]
+    distributions = [[float(r["delta_psnr_vs_standard"]) for r in camera_rows if r["profile"] == p] for p in PROFILE_ORDER[:5]]
     box = ax.boxplot(distributions, patch_artist=True, showfliers=True, flierprops={"markersize": 1.5, "alpha": 0.3})
-    for patch, profile in zip(box["boxes"], PROFILE_ORDER[:4]):
+    for patch, profile in zip(box["boxes"], PROFILE_ORDER[:5]):
         patch.set_facecolor(COLORS[profile])
         patch.set_alpha(0.8)
     ax.axhline(-0.5, color="#B44C4C", ls="--", lw=0.9)
-    ax.set_xticks(range(1, 5), [PROFILE_LABELS[p] for p in PROFILE_ORDER[:4]], rotation=25, ha="right")
+    ax.set_xticks(range(1, 6), [PROFILE_LABELS[p] for p in PROFILE_ORDER[:5]], rotation=25, ha="right")
     ax.set_ylabel("Camera ΔPSNR (dB)")
     ax.set_title("Camera-level tail remains visible", loc="left")
     panel(ax, "c")

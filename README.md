@@ -10,6 +10,8 @@ This public snapshot contains two independent simulators:
   evaluation (`sard-v11`).
 - `simulators/precision/` — fixed-point raster quality, overflow, and conic
   structure evaluation (`gs-raster-precision-v2`).
+- `simulators/precision/profiles/conic21_quality_safe_v1.json` — the released
+  21-bit `UQ3.18/SQ2.18` structure-preserving raster profile.
 - `docs/` — model boundaries, data formats, and reproducibility notes.
 - `examples/` — small synthetic, dependency-free fixtures.
 

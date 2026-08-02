@@ -1,0 +1,10 @@
+{
+  "profile": "conic21",
+  "cameras": 573,
+  "scene_equal_mean_delta_psnr": -0.013020346808049355,
+  "scene_equal_mean_delta_ssim": -0.00023998076922742637,
+  "scene_equal_mean_delta_lpips": -0.00041588610033883443,
+  "worst_delta_psnr": -0.8864984512329102,
+  "below_neg_05": 1,
+  "below_neg_1": 0
+}
