@@ -14,6 +14,11 @@ The public repository is:
 
 <https://github.com/nc-thu/gsrp-3dgs>
 
+The clean workload-selection release snapshot is commit
+`e572c67f787aababde88595488f8a7fb4dbfd02f`. The repository may receive
+documentation-only follow-up commits; use this snapshot when reproducing the
+selection tables and aggregate results described here.
+
 The release boundary contains simulators, profiles, tests, aggregate source
 data, and reproduction scripts. It does not contain the manuscript, private
 models, dataset copies, raw traces, server paths, credentials, complete RTL,

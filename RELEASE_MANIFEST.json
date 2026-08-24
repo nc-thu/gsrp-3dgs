@@ -10,7 +10,7 @@
       "sha256": "f7ad62d930c112e7480730c49f71113cdbea3d1ccfb293b59a7e038019a3819b"
     },
     "README.md": {
-      "sha256": "0649eca7bbf6f661a7e4e7e1f60cc0fe3619f562edec865f6e3e95570d1620ae"
+      "sha256": "c16cdf992739fe17386fb5c6348416e1d3f0459c349ca8704ca5fa6500f58aa7"
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "37c72b6af7426c2be56b9a43c17bb618448ce7534b313a6adfb90266958ac5bf"
@@ -243,6 +243,7 @@
       "camera-ready reproduction scripts"
     ]
   },
+  "public_snapshot_commit": "e572c67f787aababde88595488f8a7fb4dbfd02f",
   "release_date": "2026-08-24",
   "repository": "https://github.com/nc-thu/gsrp-3dgs",
   "schema": "gsrp-public-release-manifest-v2",

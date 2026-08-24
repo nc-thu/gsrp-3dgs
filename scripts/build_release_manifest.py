@@ -29,6 +29,7 @@ EXCLUDED = (
     "dc/",
     "server/",
 )
+PUBLIC_SNAPSHOT_COMMIT = "e572c67f787aababde88595488f8a7fb4dbfd02f"
 
 
 def sha256(path: Path) -> str:
@@ -67,6 +68,7 @@ def main() -> None:
         "schema": "gsrp-public-release-manifest-v2",
         "status": "public",
         "repository": "https://github.com/nc-thu/gsrp-3dgs",
+        "public_snapshot_commit": PUBLIC_SNAPSHOT_COMMIT,
         "release_date": date.today().isoformat(),
         "privacy_boundary": {
             "included": [
