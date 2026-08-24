@@ -1,0 +1,38 @@
+{
+  "schema": "gs-raster-precision-camera-ready-release-2",
+  "status": "historical_aggregate",
+  "allocator": "atae_snugbox",
+  "reference": "standard renderCUDA",
+  "calibration_role": "candidate_generation",
+  "workload_role": "profile_selection_validation",
+  "camera_count": 573,
+  "generalization_claim": false,
+  "selection_note": "This historical aggregate predates the workload-aware selector; use results/profile_selection_v2 for the current 20/21-bit selection contract.",
+  "profile_sha256": "6d8a6050761b1b87116b99a87e435a3d69cf08263789014309a0656ff1f74b95",
+  "private_build_provenance": "not distributed",
+  "decision": {
+    "release_profile": "camera_ready_quality_safe_v1",
+    "camera_count": 573,
+    "heldout_cameras": 573,
+    "quality_gate_pass": true
+  },
+  "overall": {
+    "profile": "camera_ready_quality_safe_v1",
+    "cameras": 573,
+    "mean_delta_psnr": -0.0001694111715852694,
+    "worst_delta_psnr": -0.07248687744140625,
+    "mean_delta_ssim": -5.905509619188558e-05,
+    "mean_delta_lpips": -0.00032221778486099544,
+    "saturations": 0
+  },
+  "result_csv_sha256": {
+    "lego": "37bce4cd1a41257232776f60385573d259e6ab7a68b54a02b87550a126d00c7f",
+    "hotdog": "3c5d08653c623927cb9cf4dc77aec64c2bc147019d52c0522c0280fe51861644",
+    "tt107k": "c2ab270773b97fb6391d2e5ac1bdb8a8e588713800d80061d10d0ed99633decc",
+    "truck": "42a5bd86b1cb8f35eb59bd85562aff4b1a3d7ba8ca2d07f8da72f3409241a16b",
+    "drjohnson": "96bf6d26d03d332d4fa5c04419c7efed7115a15e9b02a2927c4bb95fd48ebad0",
+    "playroom": "30bb7bb8e8392fc05f1a40652720386391ed3e6c858b89f7e24bc9b3ccba96a7",
+    "bicycle": "d0e1f7c2caf4e1184d65678dacd5712c89467a89b8ed79ac64dc24ea11e28334",
+    "garden": "187e51a57dfdfdf09b01ffc3cf8f01650d34488eb4079653233de236202355dc"
+  }
+}

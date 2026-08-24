@@ -1,0 +1,65 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "profiles": [
+    {
+      "name": "joint_input_minimum",
+      "inputs": {
+        "mean_x": {"bits": 18, "frac_bits": 3, "signed": true},
+        "mean_y": {"bits": 16, "frac_bits": 3, "signed": true},
+        "conic_a": {"bits": 22, "frac_bits": 20, "signed": false},
+        "conic_b": {"bits": 20, "frac_bits": 18, "signed": true},
+        "conic_c": {"bits": 23, "frac_bits": 21, "signed": false},
+        "opacity": {"bits": 8, "frac_bits": 7, "signed": false},
+        "rgb": {"bits": 9, "frac_bits": 6, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "joint_input_safe",
+      "inputs": {
+        "mean_x": {"bits": 19, "frac_bits": 4, "signed": true},
+        "mean_y": {"bits": 17, "frac_bits": 4, "signed": true},
+        "conic_a": {"bits": 23, "frac_bits": 21, "signed": false},
+        "conic_b": {"bits": 21, "frac_bits": 19, "signed": true},
+        "conic_c": {"bits": 24, "frac_bits": 22, "signed": false},
+        "opacity": {"bits": 9, "frac_bits": 8, "signed": false},
+        "rgb": {"bits": 10, "frac_bits": 7, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "joint_input_quality_safe",
+      "inputs": {
+        "mean_x": {"bits": 26, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 24, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "joint_input_control",
+      "inputs": {
+        "mean_x": {"bits": 30, "frac_bits": 14, "signed": true},
+        "mean_y": {"bits": 30, "frac_bits": 14, "signed": true},
+        "conic_a": {"bits": 30, "frac_bits": 26, "signed": false},
+        "conic_b": {"bits": 30, "frac_bits": 26, "signed": true},
+        "conic_c": {"bits": 30, "frac_bits": 26, "signed": false},
+        "opacity": {"bits": 20, "frac_bits": 19, "signed": false},
+        "rgb": {"bits": 24, "frac_bits": 19, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    }
+  ]
+}

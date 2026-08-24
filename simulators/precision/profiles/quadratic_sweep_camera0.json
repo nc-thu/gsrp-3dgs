@@ -1,0 +1,84 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "frozen_inputs": "quality_safe_with_four_coordinate_guard_bits",
+  "profiles": [
+    {
+      "name": "guarded_inputs_float_quadratic",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "quad_compact",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 28, "geometry_frac_bits": 0,
+        "term_bits": 24, "term_frac_bits": 12,
+        "sum_bits": 26, "sum_frac_bits": 12,
+        "power_bits": 16, "power_frac_bits": 12
+      },
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "quad_balanced",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 30, "geometry_frac_bits": 0,
+        "term_bits": 26, "term_frac_bits": 14,
+        "sum_bits": 28, "sum_frac_bits": 14,
+        "power_bits": 18, "power_frac_bits": 14
+      },
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    },
+    {
+      "name": "quad_quality_safe",
+      "inputs": {
+        "mean_x": {"bits": 28, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 28, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {
+        "enabled": true,
+        "geometry_bits": 30, "geometry_frac_bits": 0,
+        "term_bits": 28, "term_frac_bits": 16,
+        "sum_bits": 30, "sum_frac_bits": 16,
+        "power_bits": 20, "power_frac_bits": 16
+      },
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "gs-raster-precision-profiles-1",
+  "status": "frozen-before-heldout",
+  "calibration_set": "eight_scene_camera0",
+  "profiles": [
+    {
+      "name": "frozen_inputs_quality_safe",
+      "inputs": {
+        "mean_x": {"bits": 26, "frac_bits": 11, "signed": true},
+        "mean_y": {"bits": 24, "frac_bits": 11, "signed": true},
+        "conic_a": {"bits": 26, "frac_bits": 23, "signed": false},
+        "conic_b": {"bits": 26, "frac_bits": 23, "signed": true},
+        "conic_c": {"bits": 26, "frac_bits": 23, "signed": false},
+        "opacity": {"bits": 10, "frac_bits": 9, "signed": false},
+        "rgb": {"bits": 14, "frac_bits": 10, "signed": false}
+      },
+      "quadratic": {"enabled": false},
+      "exp": {"enabled": false},
+      "blend": {"enabled": false}
+    }
+  ]
+}

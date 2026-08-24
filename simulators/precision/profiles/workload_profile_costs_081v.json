@@ -1,0 +1,10 @@
+{
+  "schema": "gsrp-profile-area-cost-v1",
+  "corner": "TSMC28nm_SSG_0.81V_400MHz",
+  "area_unit": "cell-area units",
+  "area_source": "measured pre-layout DC synthesis",
+  "profiles": {
+    "selected_coord18_conic20_opacity8_rgb10": 197298.0,
+    "selected_coord18_conic21_opacity8_rgb10": 197612.0
+  }
+}

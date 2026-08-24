@@ -1,0 +1,20 @@
+{
+  "calibration_role": "candidate_generation",
+  "camera_count_per_profile": 573,
+  "cuda_rerun": false,
+  "profiles": [
+    "selected_coord18_conic20_opacity8_rgb10",
+    "selected_coord18_conic21_opacity8_rgb10"
+  ],
+  "scene_count": 8,
+  "schema": "gsrp-public-workload-selection-input-v1",
+  "source_labels": {
+    "selected_coord18_conic20_opacity8_rgb10": "completed 20-bit full-PD-guard camera results",
+    "selected_coord18_conic21_opacity8_rgb10": "completed 21-bit full-GSRP camera results"
+  },
+  "source_sha256": {
+    "profile20": "642d25690c6887ceda45e852a0860aaa01665a252ba66a2844fe4261c8365845",
+    "profile21": "0f1b69f526df6fc01c21b48f1bf6aa4d1753939ab4f24d64799768e8516c3429"
+  },
+  "workload_role": "profile_selection_validation"
+}

@@ -1,0 +1,70 @@
+{
+  "calibration_role": "candidate_generation",
+  "constraints": {
+    "camera_count": 573,
+    "final_non_pd": 0,
+    "max_unexplained_saturation": 0,
+    "scene_count": 8,
+    "scene_equal_delta_lpips": 0.005,
+    "scene_equal_delta_psnr_db": -0.2,
+    "scene_equal_delta_ssim": -0.002,
+    "worst_delta_psnr_db": -1.0
+  },
+  "generalization_claim": false,
+  "objective": "minimize_measured_area",
+  "profiles": [
+    {
+      "camera_count": 573,
+      "cameras_below_minus_0p5_db": 6,
+      "cameras_below_minus_1_db": 2,
+      "candidate_status": "rejected",
+      "constraint_failures": [
+        "worst_delta_psnr"
+      ],
+      "dangerous_negative_saturations": 0,
+      "final_non_pd": 0,
+      "measured_area": 197298.0,
+      "pooled_delta_psnr_db": -0.027790963337683553,
+      "pooled_delta_psnr_median": -0.0144500732421875,
+      "pooled_delta_psnr_p5": -0.09092178344726562,
+      "profile": "selected_coord18_conic20_opacity8_rgb10",
+      "saturations": 5587682056,
+      "scene_count": 8,
+      "scene_equal_delta_lpips": -0.0003805916498573991,
+      "scene_equal_delta_psnr_db": -0.04437015985173771,
+      "scene_equal_delta_ssim": -0.00042914039319110744,
+      "selection_rank": null,
+      "selection_reason": "quality/structure gate failed",
+      "underflows": 186758276,
+      "unexplained_saturations": 0,
+      "worst_delta_psnr_db": -1.8793468475341797
+    },
+    {
+      "camera_count": 573,
+      "cameras_below_minus_0p5_db": 1,
+      "cameras_below_minus_1_db": 0,
+      "candidate_status": "pass",
+      "constraint_failures": [],
+      "dangerous_negative_saturations": 0,
+      "final_non_pd": 0,
+      "measured_area": 197612.0,
+      "pooled_delta_psnr_db": -0.013459348761806522,
+      "pooled_delta_psnr_median": -0.01421356201171875,
+      "pooled_delta_psnr_p5": -0.04888420104980469,
+      "profile": "selected_coord18_conic21_opacity8_rgb10",
+      "saturations": 5590197478,
+      "scene_count": 8,
+      "scene_equal_delta_lpips": -0.0004158861003388654,
+      "scene_equal_delta_psnr_db": -0.01302034680804938,
+      "scene_equal_delta_ssim": -0.00023998076922746045,
+      "selection_rank": 1,
+      "selection_reason": "minimum measured area among passing workload profiles",
+      "underflows": 186865626,
+      "unexplained_saturations": 0,
+      "worst_delta_psnr_db": -0.8864984512329102
+    }
+  ],
+  "schema": "gsrp-workload-profile-selection-v1",
+  "selected_profile": "selected_coord18_conic21_opacity8_rgb10",
+  "workload_role": "profile_selection_validation"
+}

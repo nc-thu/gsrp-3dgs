@@ -1,0 +1,20 @@
+{
+  "path": "results_camera_ready_v1\\report.html",
+  "status": "PASS",
+  "critical": [],
+  "bad_headings": [],
+  "raw_field_name_count": 1,
+  "raw_field_name_examples": [
+    "mean_y"
+  ],
+  "scientific_notation_count": 0,
+  "scientific_notation_examples": [],
+  "story_markers": {
+    "goal_or_background": true,
+    "problem": true,
+    "comparison": true,
+    "meaning": true,
+    "limitation": true
+  },
+  "note": "Automated checks find common bad smells; a human read-through is still required."
+}

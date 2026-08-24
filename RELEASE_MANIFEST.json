@@ -1,0 +1,258 @@
+{
+  "files": {
+    ".gitignore": {
+      "sha256": "3bd554e1bd20cdf16eed40b5ded454eb5923bb235d4a1d6c06ab7a434c70f7c4"
+    },
+    "CITATION.cff": {
+      "sha256": "e0ffef749603c349075b079241bfd58d3f69a8a3a7edd03efd8d773e57dc6108"
+    },
+    "LICENSE": {
+      "sha256": "f7ad62d930c112e7480730c49f71113cdbea3d1ccfb293b59a7e038019a3819b"
+    },
+    "README.md": {
+      "sha256": "0649eca7bbf6f661a7e4e7e1f60cc0fe3619f562edec865f6e3e95570d1620ae"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "37c72b6af7426c2be56b9a43c17bb618448ce7534b313a6adfb90266958ac5bf"
+    },
+    "docs/EXPERIMENT_PROTOCOL.md": {
+      "sha256": "3e69f3f0cfde68b0c7df16bbd79720ec201df6d4f49ea3f17626f5124ffa4770"
+    },
+    "docs/PROFILE_SELECTION.md": {
+      "sha256": "8e577a0cecbcba7d941d5eca049bb22eb157395ffe1bbed9cae8261c2a23889f"
+    },
+    "docs/PUBLIC_RELEASE_SCOPE.md": {
+      "sha256": "bfddf9ebb6e1505f9f97ea0cd3b07d529b2aba5973e225acd8f047b275a37f2e"
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "sha256": "5b616ac27c34932b27c2386cb4e85fb71081dc6a046b665e8667466b6e7d6046"
+    },
+    "examples/README.md": {
+      "sha256": "5f0f6172cd3a9f3da509ad6e9483d9e2449aa08a002a464ec10f4a86e843aa0f"
+    },
+    "simulators/performance/CITATION.cff": {
+      "sha256": "5e8105749a9b7c4aa5081279d8624bc38d1734953a7480639c63817afe8b1f1d"
+    },
+    "simulators/performance/LICENSE": {
+      "sha256": "44d19a2facbb3c384924eb94d99c87bdab3eb138db536aaede74d02b8bded112"
+    },
+    "simulators/performance/README.md": {
+      "sha256": "a81753a3581290c1740348f1eeee8a9beeaabe5f8bcd406047b6dbe9bac3325f"
+    },
+    "simulators/performance/RELEASE_MANIFEST.json": {
+      "sha256": "90bfe64925bd56ea028afa470c4fb9a128d5679f3271a4d8b0229c7c9bd15068"
+    },
+    "simulators/performance/REVISION_LOG_V11.md": {
+      "sha256": "de979ebd733edd73e9e2a76041c612b69327ce98a653e41012057f747ac9287a"
+    },
+    "simulators/performance/THIRD_PARTY_NOTICES.md": {
+      "sha256": "f1f13626d956827fe8a0f3d2e11239e389d6dc867ac21c30d46c1e5ca4e0cbd8"
+    },
+    "simulators/performance/docs/MODEL_SPEC_V11.md": {
+      "sha256": "ff6a159b966a5bdd36b944dffa4c78e7c728110b8cac08fe2440ead368a4f9ac"
+    },
+    "simulators/performance/gs_arch_sim_v11/__init__.py": {
+      "sha256": "ca370ea8e38ecb68aee6248e42f96368f02b43cba554cf44ff4058f0ecc350da"
+    },
+    "simulators/performance/gs_arch_sim_v11/cli.py": {
+      "sha256": "68571108855811749de1b285398230e50f3fe3da17de490d1d5bc6ca2a1a2bf7"
+    },
+    "simulators/performance/gs_arch_sim_v11/experiments.py": {
+      "sha256": "a3e5c8de66e549dac607ea75dd4f02b975715fe890359e5495b802c2eff961d6"
+    },
+    "simulators/performance/gs_arch_sim_v11/io.py": {
+      "sha256": "e04bb146438a50096d128bf5ead35102b2a112c5f18d888c208db7d10f577896"
+    },
+    "simulators/performance/gs_arch_sim_v11/model.py": {
+      "sha256": "567679c37a944f095065b7e72a7114b9dba280c3ab26b0db30b5e200ea01ab41"
+    },
+    "simulators/performance/gs_arch_sim_v11/report.py": {
+      "sha256": "7bdec093d965a36a49914d3d286a22473b9f582045f02cfb39f5bedc3301e282"
+    },
+    "simulators/performance/pyproject.toml": {
+      "sha256": "ae69a67b0df241e0e1d161b1ca2a6594d4590c743679d529724067e0329c5a77"
+    },
+    "simulators/performance/results/camera_results.csv": {
+      "sha256": "e0a47f274af15cb81016b40dca7b0c119f2df792cfa91a2cc74eb3962d860b55"
+    },
+    "simulators/performance/results/comparison_2x2.csv": {
+      "sha256": "3e909515583e9ed6d06e69c8e84bcba9f196536b2c6fc46e2d42a55a8f00a746"
+    },
+    "simulators/performance/results/manifest.json": {
+      "sha256": "5079d6174d571eb8980c9ab557befd09370cae03efda07ac1c6e647855e60cbe"
+    },
+    "simulators/performance/results/overall_summary.csv": {
+      "sha256": "8fc463eb7b06ccca76fb0d126a8d2bfb214393993bbafda5a79a424b8b8e8e04"
+    },
+    "simulators/performance/results/report.html": {
+      "sha256": "46bd7df32f2a1bea47e9c5edac891d14d7a80d8d20a03e441dfdeafb5edd503d"
+    },
+    "simulators/performance/results/scene_summary.csv": {
+      "sha256": "db26cfb1955e24587f7a706622b733259a23e9fc84d9d5431100f20c674547e4"
+    },
+    "simulators/performance/tests/test_model.py": {
+      "sha256": "6ffdab3fe28417dee21348d640b6ce9473cff0b88fb5393a8c1828ca865180ee"
+    },
+    "simulators/precision/CITATION.cff": {
+      "sha256": "00639582c866f6a2e66342fe2b5d772562f62b2f567100e5e65a628bd86ce22a"
+    },
+    "simulators/precision/LICENSE": {
+      "sha256": "045b78357557e3cfbf329f435eee6897dcd5e0af93fec102b8fa6781ac7bcc84"
+    },
+    "simulators/precision/README.md": {
+      "sha256": "03b174483d9b10174c021860904e9e4e80cf590d54aef1b59ae9405356fdf2d0"
+    },
+    "simulators/precision/THIRD_PARTY_NOTICES.md": {
+      "sha256": "bcccd421a4b4c50bd7b4924624200767ee41de2600d0eb7c88420c86d57d1a9e"
+    },
+    "simulators/precision/gs_raster_precision_v2/__init__.py": {
+      "sha256": "dd6a808f8df6116e2f7d49cad1c2a7f2219849fefbc9b5efb86f4d93be4d3d56"
+    },
+    "simulators/precision/gs_raster_precision_v2/calibration.py": {
+      "sha256": "9f0777718add474d13bb8372c2ea9a8838a97f87e212c87cf9d7831032ffcb72"
+    },
+    "simulators/precision/gs_raster_precision_v2/camera_ready_report.py": {
+      "sha256": "4b8bf21c3ef59e05bc1ad54c3753dfe5e0c07458f95d8237355012392276420d"
+    },
+    "simulators/precision/gs_raster_precision_v2/cli.py": {
+      "sha256": "5b577104824bbbfbb78166579f9419fa632234f59f243b32b03bacf684b8095b"
+    },
+    "simulators/precision/gs_raster_precision_v2/report.py": {
+      "sha256": "4723122bcd618c3b668bdd1419d5cd2986d5568fcbfad08471375be6e6858c8b"
+    },
+    "simulators/precision/gs_raster_precision_v2/selection.py": {
+      "sha256": "9fa17f4373aee3fdaa0e191ec32c10b94df31dfe66e871a767638415cea1310e"
+    },
+    "simulators/precision/gs_raster_precision_v2/workload_selection.py": {
+      "sha256": "2b8bef071c6b0f0f554cec4bb09db67ca899c2ffc8e2bcdbc4fb11ffdfc26236"
+    },
+    "simulators/precision/profiles/blending_refine_camera0.json": {
+      "sha256": "f8b63913a7b1b7a7f8385676e7cc17ced90b7730f214722a71b2b812226ec488"
+    },
+    "simulators/precision/profiles/blending_sweep_camera0.json": {
+      "sha256": "8d45eea24821ec1fc8f2c990d0cb1de8cf1ed151f6745a4ad2312ba83f906988"
+    },
+    "simulators/precision/profiles/camera_ready_margin_v1.json": {
+      "sha256": "4b7b38d1062ce4f3a863266a87ba23e3b161b98894e7f417fbfc366a02d8ca55"
+    },
+    "simulators/precision/profiles/camera_ready_quality_safe_v1.json": {
+      "sha256": "6d8a6050761b1b87116b99a87e435a3d69cf08263789014309a0656ff1f74b95"
+    },
+    "simulators/precision/profiles/exp_addr8_output_sweep_camera0.json": {
+      "sha256": "9eab5da30479b4f0e01e9929c49d075dbfcbfdbee1e2da3cb4a1f2ed6e6ae2cb"
+    },
+    "simulators/precision/profiles/exp_sweep_camera0.json": {
+      "sha256": "51889cf91fd3c349021bd2554c398a0dcbe3460d842af0292101ffb2fddaaba1"
+    },
+    "simulators/precision/profiles/frozen_inputs_8scene_camera0.json": {
+      "sha256": "36fd212142fd7b15afd683c00902158b31ad891d8c868def610f13cd383d6a73"
+    },
+    "simulators/precision/profiles/frozen_inputs_quality_safe.json": {
+      "sha256": "b7a34c0d67bf050420886286fb822749a4ed819df07013ba5490a07041750b44"
+    },
+    "simulators/precision/profiles/input_sweep_8scene_camera0.json": {
+      "sha256": "3b7baae824b55aa3aa6e14289fe2e80188115d24d1751c45936e6f968d690aa3"
+    },
+    "simulators/precision/profiles/joint_inputs_camera0_gate.json": {
+      "sha256": "41828e2e767a11fb08726d493619320f4a0efa2f3eeb483b93ca59492739ff3a"
+    },
+    "simulators/precision/profiles/quadratic_sweep_camera0.json": {
+      "sha256": "acc591dcf2f9e89fba6fcec7eda78d88f434eb5067a2f59c15db848f4beed0c5"
+    },
+    "simulators/precision/profiles/quadratic_wide_control_camera0.json": {
+      "sha256": "bb1137f0745bcf6ce643702f80d59c41ffaf1e32160b3c735570068314448427"
+    },
+    "simulators/precision/profiles/smoke_camera_ready.json": {
+      "sha256": "fe0850b15d77058ccec9205c0fa904a2be21cefcb4da5fe2f49bc58c6d971a4e"
+    },
+    "simulators/precision/profiles/workload_profile_costs_081v.json": {
+      "sha256": "1bbef95a5721e53a378ae1f499efbc1be332e32759b5971db62b2c859bd92fd6"
+    },
+    "simulators/precision/profiles/workload_profile_selection_v1.json": {
+      "sha256": "4dcee7723090f7bcda4fc47f38dcc76a904896572e83ea1320af0fd7d04ff457"
+    },
+    "simulators/precision/pyproject.toml": {
+      "sha256": "553969119f75fec3272d2964365af9e6aa1194a43b35a57ef43da832216912cd"
+    },
+    "simulators/precision/results/manifest.json": {
+      "sha256": "0c6ef655842af36c2d1b3d488798a2a94e33862ba38454f4e0f86dec0a7e20af"
+    },
+    "simulators/precision/results/margin_check_summary.csv": {
+      "sha256": "d3fc67d01fe8639b5de13859c230731e306bb2bdf2dba887c071081b117922ef"
+    },
+    "simulators/precision/results/plain_language_audit.json": {
+      "sha256": "4ed1cc9ddf932c4e24beb9e637443024b95331a6caee746ce62c50894dd7f0d6"
+    },
+    "simulators/precision/results/profile_selection_v2/input_manifest.json": {
+      "sha256": "28c323ce26c0b07ea878fd57cacd3e55137ca0fb3835bead36c4cf8e8e060ea7"
+    },
+    "simulators/precision/results/profile_selection_v2/profile20_camera_results.csv": {
+      "sha256": "d43ca74bb845d381f2b42d5baf793b56d97e9cf42fc52a8ffa69fb7776344c16"
+    },
+    "simulators/precision/results/profile_selection_v2/profile21_camera_results.csv": {
+      "sha256": "3376a559989bef5c610dcab05a991a3d3c8db7ba3ceb012e345b2a375809a093"
+    },
+    "simulators/precision/results/profile_selection_v2/profile_selection_camera_results.csv": {
+      "sha256": "258c5e84f37ab4473568bb26896342e428d9c64283e9f00ae757d8140b1da381"
+    },
+    "simulators/precision/results/profile_selection_v2/selection/workload_selection.csv": {
+      "sha256": "101b327494247b3b9ac41b3bf94517cae3542fc0536d2e0c9bc6a286e4445bea"
+    },
+    "simulators/precision/results/profile_selection_v2/selection/workload_selection.json": {
+      "sha256": "7207d1d69561f5804b2a117f3682f9f4efe749e4cea81c9596454fd1eba82fab"
+    },
+    "simulators/precision/results/report.html": {
+      "sha256": "e09c0be3046e489cd8d1cf40511407c57a17aa1164263074458547681313e373"
+    },
+    "simulators/precision/results/scene_summary.csv": {
+      "sha256": "557223a5c3edf59a8c2e86fe1caf2e49fb3e4c420a1d684761e84a487a152ff8"
+    },
+    "simulators/precision/results/stage_summary.csv": {
+      "sha256": "c369a32197604ac24f4f9ad5fb757227aaa1152e200aaa16d5880d92926ff4df"
+    },
+    "simulators/precision/scripts/build_workload_selection_artifact.py": {
+      "sha256": "5cbcf196a1e006995d65a102ebc969ec87f476d6db4f3e00e0fcabdb1e741bf6"
+    },
+    "simulators/precision/tests/test_camera_ready_report.py": {
+      "sha256": "cc4613bcdb850ccc404ff8b6466846b58307e980af8405b32fa91a6d1e32789c"
+    },
+    "simulators/precision/tests/test_selection.py": {
+      "sha256": "3106fdb1950e33702fc47a03e862cd512a80c3cc064aa3820acfaf1f52907eef"
+    }
+  },
+  "privacy_boundary": {
+    "excluded": [
+      "paper/",
+      "models/",
+      "datasets/",
+      "traces/",
+      "rtl/",
+      "netlists/",
+      "dc/",
+      "server/",
+      "private models",
+      "dataset copies",
+      "server environments",
+      "complete manuscript"
+    ],
+    "included": [
+      "performance simulator",
+      "precision simulator",
+      "profiles and tests",
+      "aggregate evidence",
+      "camera-ready reproduction scripts"
+    ]
+  },
+  "release_date": "2026-08-24",
+  "repository": "https://github.com/nc-thu/gsrp-3dgs",
+  "schema": "gsrp-public-release-manifest-v2",
+  "status": "public",
+  "workload_protocol": {
+    "calibration_role": "candidate_generation",
+    "camera_count": 573,
+    "generalization_claim": false,
+    "selection_contract": "simulators/precision/profiles/workload_profile_selection_v1.json",
+    "selection_result": "simulators/precision/results/profile_selection_v2/selection/workload_selection.json",
+    "workload_role": "profile_selection_validation"
+  }
+}

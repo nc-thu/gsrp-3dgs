@@ -1,0 +1,29 @@
+{
+  "schema": "gs-arch-sim-v11-release-manifest-v2",
+  "version": "1.1.1",
+  "generated_date": "2026-07-22",
+  "profile": "continuous_w16_tile_tstop",
+  "canonical_scene_key": "train",
+  "display_scene_label": "Train",
+  "package_contents": [
+    "Python simulator and CLI",
+    "Speedy-Splat summary adapter interface",
+    "model specification",
+    "tests",
+    "MIT license and citation metadata",
+    "aggregate camera-ready results"
+  ],
+  "results": {
+    "camera_count": 1162,
+    "scene_count": 8,
+    "allocator_count": 2,
+    "status": "complete",
+    "overall_summary_sha256": "8fc463eb7b06ccca76fb0d126a8d2bfb214393993bbafda5a79a424b8b8e8e04",
+    "comparison_2x2_sha256": "3e909515583e9ed6d06e69c8e84bcba9f196536b2c6fc46e2d42a55a8f00a746"
+  },
+  "provenance": {
+    "scene_rename": "historical scene key migrated to train; numerical fields unchanged",
+    "raw_models_and_full_traces": "not included",
+    "server_paths_and_credentials": "not included"
+  }
+}

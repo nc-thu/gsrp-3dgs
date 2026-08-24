@@ -1,0 +1,20 @@
+{
+  "schema": "gsrp-workload-profile-selection-contract-v1",
+  "workload_role": "profile_selection_validation",
+  "calibration_role": "candidate_generation",
+  "calibration_set": "eight_scene_camera0",
+  "camera_count": 573,
+  "scene_count": 8,
+  "generalization_claim": false,
+  "constraints": {
+    "camera_count": 573,
+    "scene_count": 8,
+    "final_non_pd": 0,
+    "worst_delta_psnr_db": -1.0,
+    "scene_equal_delta_psnr_db": -0.2,
+    "scene_equal_delta_ssim": -0.002,
+    "scene_equal_delta_lpips": 0.005,
+    "max_unexplained_saturation": 0
+  },
+  "objective": "minimize_measured_area"
+}

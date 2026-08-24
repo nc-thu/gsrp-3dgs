@@ -1,0 +1,108 @@
+{
+  "schema": "gs-raster-precision-input-profile-1",
+  "status": "camera0_calibrated",
+  "reference": "standard_renderCUDA",
+  "allocator": "atae_snugbox",
+  "inputs": {
+    "mean_x": {
+      "bits": 18,
+      "frac_bits": 3,
+      "signed": true
+    },
+    "mean_y": {
+      "bits": 16,
+      "frac_bits": 3,
+      "signed": true
+    },
+    "conic_a": {
+      "bits": 22,
+      "frac_bits": 20,
+      "signed": false
+    },
+    "conic_b": {
+      "bits": 20,
+      "frac_bits": 18,
+      "signed": true
+    },
+    "conic_c": {
+      "bits": 23,
+      "frac_bits": 21,
+      "signed": false
+    },
+    "opacity": {
+      "bits": 8,
+      "frac_bits": 7,
+      "signed": false
+    },
+    "rgb": {
+      "bits": 9,
+      "frac_bits": 6,
+      "signed": false
+    }
+  },
+  "selection": {
+    "mean_x": {
+      "name": "input_mean_x_b18_f3",
+      "scenes": 8,
+      "mean_delta_psnr": -0.0043790340423583984,
+      "worst_delta_psnr": -0.00743865966796875,
+      "mean_delta_ssim": -0.00010482966899871826,
+      "worst_direct_psnr": 53.46531677246094,
+      "saturations": 0
+    },
+    "mean_y": {
+      "name": "input_mean_y_b16_f3",
+      "scenes": 8,
+      "mean_delta_psnr": -0.0032777786254882812,
+      "worst_delta_psnr": -0.0063037872314453125,
+      "mean_delta_ssim": -0.00012226402759552002,
+      "worst_direct_psnr": 51.87841033935547,
+      "saturations": 0
+    },
+    "conic_a": {
+      "name": "input_conic_a_b22_f20",
+      "scenes": 8,
+      "mean_delta_psnr": -0.002990245819091797,
+      "worst_delta_psnr": -0.022897720336914062,
+      "mean_delta_ssim": -1.3552606105804443e-05,
+      "worst_direct_psnr": 60.2689323425293,
+      "saturations": 0
+    },
+    "conic_b": {
+      "name": "input_conic_b_b20_f18",
+      "scenes": 8,
+      "mean_delta_psnr": -0.002568960189819336,
+      "worst_delta_psnr": -0.03887367248535156,
+      "mean_delta_ssim": -5.505979061126709e-05,
+      "worst_direct_psnr": 50.713783264160156,
+      "saturations": 0
+    },
+    "conic_c": {
+      "name": "input_conic_c_b23_f21",
+      "scenes": 8,
+      "mean_delta_psnr": 2.2649765014648438e-05,
+      "worst_delta_psnr": -0.0025310516357421875,
+      "mean_delta_ssim": 8.419156074523926e-06,
+      "worst_direct_psnr": 64.52381134033203,
+      "saturations": 0
+    },
+    "opacity": {
+      "name": "input_opacity_b8_f7",
+      "scenes": 8,
+      "mean_delta_psnr": 0.010406970977783203,
+      "worst_delta_psnr": -0.000652313232421875,
+      "mean_delta_ssim": -2.0585954189300537e-05,
+      "worst_direct_psnr": 53.982810974121094,
+      "saturations": 0
+    },
+    "rgb": {
+      "name": "input_rgb_b9_f6",
+      "scenes": 8,
+      "mean_delta_psnr": -0.014403820037841797,
+      "worst_delta_psnr": -0.053577423095703125,
+      "mean_delta_ssim": -0.00017818063497543335,
+      "worst_direct_psnr": 54.38743591308594,
+      "saturations": 0
+    }
+  }
+}
